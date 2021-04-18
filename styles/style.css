@@ -1,0 +1,91 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(192, 192, 192);
+    font-family: cursive, arial, sans-serif;
+    color: rgb(0, 128, 255);
+}
+
+/*Début container*/
+#wrapper {
+    /*    max-width: 580px;*/
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*titre*/
+.main-header h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 1em;
+
+}
+
+/*titre*/
+.main-article h2 {
+    line-height: 1.2em;
+    font-size: 35px;
+}
+
+/* titre avec retour à la ligne grace a display block et au span*/
+h2 span {
+    display: block;
+    margin-bottom: 1em;
+}
+
+/*container de selection du nombre*/
+.container {
+    font-family: helvetica, verdana, sans-serif;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: -2px 5px #606060;
+    color: #000;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+p {
+    margin-right: 2em;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+textarea {
+    margin: 5px;
+    padding: 0.3em;
+    min-height: 2em;
+    text-align: center;
+    background-color: rgb(224, 224, 224);
+    box-shadow: 2px 2px #606060;
+    border-radius: 10px 0 0 10px;
+
+}
+
+/* comme on a 2 input ceci permet de cibler l'input de type submit*/
+button {
+    width: 80px;
+    min-height: 1.9em;
+    font-size: 15px;
+    background-color: rgb(0, 153, 76);
+    border-radius: 0 10px 10px 0;
+}
+
+button:hover {
+    background-color: rgb(0, 204, 102);
+    cursor: pointer;
+}
+
+/*bloc de fin pour l'affichage du resultat*/
+.affichage {
+    margin: 1em;
+    font-size: 35px;
+}
